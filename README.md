@@ -45,6 +45,12 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+5. **Running Tests**
+
+```bash
+pytest
+```
+
 ## Usage
 
 **Example Code**
