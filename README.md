@@ -20,14 +20,16 @@ This Python project implements a thread-safe, in-memory cache with configurable 
 
 1. **Clone the Repository**:
 
+Fork the repository on GitHub first, then clone your fork
+
 ```bash
-git clone https://github.com/nikkuAg/xyz.git
-cd your_repository
+git clone https://github.com/<your-github-username>/in_memory_cache.git
+cd in_memory_cache
 ```
 
 2. **Create virtual environment**:
 
-```bash
+```python
 python -m venv env
 ```
 
