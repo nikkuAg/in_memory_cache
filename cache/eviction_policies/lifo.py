@@ -1,4 +1,5 @@
 from collections import OrderedDict
+
 from cache.eviction_policies import EvictionPolicy
 
 
@@ -7,4 +8,4 @@ class LIFOPolicy(EvictionPolicy):
 
     def evict(self, cache: OrderedDict):
         """Evict the lastest added entry in the cache."""
-        cache.popitem(last=False)
+        cache.popitem(last=True)
